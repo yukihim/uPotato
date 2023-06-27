@@ -1,5 +1,5 @@
-#include <iostream>
+#include <windows.h>
 
-void main() {
-    return;
+int main() {
+    return 0;
 }
