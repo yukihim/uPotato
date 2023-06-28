@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 
     SDL_Window *window = SDL_CreateWindow("uPotato", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_ALLOW_HIGHDPI);
 
-    if(NULL == window) {
+    if(window == NULL) {
         cout << "Could not create window: " << SDL_GetError() << endl;
         return 1;
     }
